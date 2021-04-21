@@ -2,7 +2,7 @@
 
 ## 🤔 What is OSAB?
 
-OSAB is an open-source, solar powered, autonomous, anti-climate change boat, being built by a team of student hobbyists and tinkerers around the world!
+OSAB is a prject that makes open-source, solar powered, autonomous, boats. We are a team of student hobbyists and tinkerers around the world to help fight climate change!
 
 ![image](https://user-images.githubusercontent.com/74977312/114660376-d5fc8380-9d12-11eb-9d1d-f0670b9246d4.png)
 
