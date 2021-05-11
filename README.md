@@ -7,7 +7,7 @@ OSAB is a prject that makes open-source, solar powered, autonomous, boats. We ar
 ![image](https://user-images.githubusercontent.com/34051815/117868320-50ef8600-b24e-11eb-919e-91b4da75de15.PNG)
 
 
-**Why?** For science of course! The data gathered by OSAB includes lux / UV / IR / Visible light, water temp, air temp and humidity, inertial measurements and magnetic fields, water turbidity, water pH, water salinity, air pressure, microphone (bioacoustics). This data will help us better understand ocean environments and let us create a better solution to **fight climate change!**
+**Why?** For science of course! The data gathered by OSAB includes lux / UV / IR / Visible light, water temp, air temp and humidity, inertial measurements and magnetic fields, water turbidity, water pH, water salinity, and air pressure. We hope to also monitor things like bioacoustics in the furture. This data will help us better understand ocean environments and let us create a better solution to **fight climate change!**
 
 ## 🏳️ Our Mission
 
