@@ -1,9 +1,7 @@
-name: Issues Automation
+name: Accepted Issues Automation
 on:
   issues:
-    types:
-      - labeled
-      - assigned
+    types: labeled
       
 jobs:
   accepted-issues-automation:
@@ -16,21 +14,17 @@ jobs:
         project: OSAB General
         column: General
         repo-token: ${{ secrets.PAT }}
+        
+name: Assigned Issues Automation
+on:
+  issues:
+    types: assigned
+      
+jobs:
   assigned-issues-automation:
-    if: "${{ github.event.issue.assign }}"
     runs-on: ubuntu-latest
     steps:
     - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-    - uses: alex-page/github-project-automation-plus@v0.7.1
-      with:
-        project: OSAB General
-        column: General
-        repo-token: ${{ secrets.PAT }}
-  not-assigned-issues-automation:
-    runs-on: ubuntu-latest
-    steps:
-    - run: echo "${{ github.event_name }}"
-    - run: echo "${{ github.event.issues.assigned }}"
     - uses: alex-page/github-project-automation-plus@v0.7.1
       with:
         project: OSAB General
