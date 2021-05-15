@@ -1,7 +1,9 @@
 name: Issues Automation
 on:
   issues:
-    types: [labeled, assigned]
+    types:
+      - labeled
+      - assigned
       
 jobs:
   accepted-issues-automation:
