@@ -12,4 +12,4 @@ jobs:
       with:
         project: OSAB General
         column: General
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.PAT }}
