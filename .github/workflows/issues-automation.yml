@@ -5,7 +5,6 @@ on:
       
 jobs:
   accepted-issues-automation:
-    run: echo "${{ github.event_name }}"
     if: "${{ github.event.label.name == 'Status: Accepted' }}"
     runs-on: ubuntu-latest
     steps:
@@ -16,7 +15,6 @@ jobs:
         column: General
         repo-token: ${{ secrets.PAT }}
   assigned-issues-automation:
-    needs: accepted-issues-automation
     if: "${{ github.event_name == 'assigned' }}"
     runs-on: ubuntu-latest
     steps:
