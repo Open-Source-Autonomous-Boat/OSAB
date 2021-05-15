@@ -15,7 +15,7 @@ jobs:
         column: General
         repo-token: ${{ secrets.PAT }}
   assigned-issues-automation:
-    if: "${{ github.event_name == 'assigned' }}"
+    if: "${{ github.event.issue.assign }}"
     runs-on: ubuntu-latest
     steps:
     - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -28,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "${{ github.event_name }}"
+    - run: echo "${{ github.event.issue.assigned }}"
     - uses: alex-page/github-project-automation-plus@v0.7.1
       with:
         project: OSAB General
