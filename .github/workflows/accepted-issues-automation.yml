@@ -8,7 +8,7 @@ jobs:
     if: "${{ github.event.label.name == 'Status: Accepted' }}"
     runs-on: ubuntu-latest
     steps:
-    - uses: Open-Source-Autonomous-Boat/OSAB
+    - uses: alex-page/github-project-automation-plus@v0.7.1
       with:
         project: OSAB General
         column: General
