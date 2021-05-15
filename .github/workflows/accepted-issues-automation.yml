@@ -5,7 +5,7 @@ on:
       
 jobs:
   accepted-issues-automation:
-    if: "${{ github.event.label.name == 'Status: Accepted' or github.event_name == 'assigned' }}"
+    if: "${{ github.event.label.name == 'Status: Accepted' || github.event_name == 'assigned' }}"
     runs-on: ubuntu-latest
     steps:
     - uses: alex-page/github-project-automation-plus@v0.7.1
