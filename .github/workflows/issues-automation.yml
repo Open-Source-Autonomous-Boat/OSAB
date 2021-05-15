@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "${{ github.event_name }}"
-    - run: echo "${{ github.event.issue.assigned }}"
+    - run: echo "${{ github.event.issues.assigned }}"
     - uses: alex-page/github-project-automation-plus@v0.7.1
       with:
         project: OSAB General
