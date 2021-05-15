@@ -1,0 +1,15 @@
+name: GitHub Actions Demo
+on:
+  issues:
+    types: 
+      labeled:
+        - 'Status: Accepted'
+      
+jobs:
+  Add Issue To Project Board:
+    runs-on: ubuntu-latest
+    - uses: alex-page/github-project-automation-plus@v0.7.1
+        with:
+          project: OSAB General
+          column: General
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
