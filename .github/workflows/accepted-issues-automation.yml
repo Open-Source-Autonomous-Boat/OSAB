@@ -1,7 +1,7 @@
 name: Accepted Issues Automation
 on:
   issues:
-    types: [ labeled ]
+    types: [labeled]
       
 jobs:
   Add Issue To Project Board:
