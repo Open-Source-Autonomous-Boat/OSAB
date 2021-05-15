@@ -5,6 +5,7 @@ on:
       
 jobs:
   accepted-issues-automation:
+    run: echo "${{ github.event_name }}"
     if: "${{ github.event.label.name == 'Status: Accepted' }}"
     runs-on: ubuntu-latest
     steps:
