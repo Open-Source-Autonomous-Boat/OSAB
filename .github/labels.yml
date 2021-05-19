@@ -3,13 +3,13 @@
 - name: Milestone Task
   color: 1D76DB
 
-- name: "Priority{{':'}} Critical"
+- name: Priority{{':'}} Critical
   color: B60205
-- name: "Priority{{':'}} High"
+- name: Priority{{':'}} High
   color: D93F0B
-- name: "Priority{{':'}} Medium"
+- name: "Priority':' Medium"
   color: FBCA04
-- name: "Priority{{':'}} Low"
+- name: "Priority':' Low"
   color: 0E8A16
 
 - name: "Status{{':'}} Accepted"
