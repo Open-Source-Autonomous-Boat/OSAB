@@ -4,8 +4,6 @@
 - name: Milestone Task
   description: 
   color: 1D76DB
-  
-  
 - name: Priority: Critical
   description: 
   color: B60205
@@ -18,8 +16,6 @@
 - name: Priority: Low
   description: 
   color: 0E8A16
-
-
 - name: Status: Accepted
   description: 
   color: 0E8A16
@@ -41,8 +37,6 @@
 - name: Status: ToDo
   description: 
   color: 0E8A16
-
-
 - name: Type: Enhancement
   description: New feature or request
   color: 1D76DB
