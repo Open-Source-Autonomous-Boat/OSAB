@@ -1,10 +1,11 @@
 name: Sync Labels
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - labels.yml
+  - workflow_dispatch:
+  - push:
+      branches:
+        - main
+      paths:
+        - labels.yml
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: micnncim/action-label-syncer@v1
         with:
-          manifest: path/to/manifest/labels.yml
+          manifest: labels.yml
           repository: 
             - Open-Source-Autonomous-Boat/Private
             - Open-Source-Autonomous-Boat/Protoypes
