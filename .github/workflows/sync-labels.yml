@@ -1,7 +1,5 @@
 name: Sync Labels
-on:
-  label:
-    types: [created, deleted, edited]
+on: workflow_dispatch
 
 jobs:
   sync:
