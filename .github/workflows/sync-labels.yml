@@ -1,6 +1,8 @@
 name: Sync Labels
 on:
   - workflow_dispatch:
+      paths:
+        - labels.yml
   - push:
       branches:
         - main
