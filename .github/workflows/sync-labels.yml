@@ -1,16 +1,7 @@
 name: Sync Labels
 on:
   label:
-    types:
-      created:
-        paths:
-          - '.github/labels.yml'
-      deleted:
-        paths:
-          - '.github/labels.yml'
-      edited:
-        paths:
-          - '.github/labels.yml'
+    types: [created, deleted, edited]
 
 jobs:
   sync:
