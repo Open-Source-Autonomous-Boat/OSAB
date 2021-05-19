@@ -1,7 +1,7 @@
 name: Sync Labels
 on:
-  issues:
-    labels:
+  label:
+    types:
       created:
         paths:
           - '.github/labels.yml'
