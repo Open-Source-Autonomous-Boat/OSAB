@@ -1,6 +1,8 @@
 - name: Duplicate
+  description: 
   color: cfd3d7
 - name: Milestone Task
+  description: 
   color: 1D76DB
   
   
