@@ -12,7 +12,7 @@ jobs:
       matrix:
         repo:
           - Open-Source-Autonomous-Boat/Private
-          - Open-Source-Autonomous-Boat/Protoypes
+          - Open-Source-Autonomous-Boat/Prototypes
           - Open-Source-Autonomous-Boat/Docs
           - Open-Source-Autonomous-Boat/Miine-Software
           - Open-Source-Autonomous-Boat/Miine-Hardware
