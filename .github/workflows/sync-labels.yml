@@ -8,6 +8,9 @@ on:
       deleted:
         paths:
           - '.github/labels.yml'
+      edited:
+        paths:
+          - '.github/labels.yml'
 
 jobs:
   sync:
