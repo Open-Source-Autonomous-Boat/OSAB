@@ -1,32 +1,23 @@
 ---
 - name: Duplicate
-  description: 
   color: cfd3d7
 - name: Milestone Task
-  description: 
   color: 1D76DB
 
 - name: Priority: Critical
-  description: 
   color: B60205
 - name: Priority: High
-  description: 
   color: D93F0B
 - name: Priority: Medium
-  description: 
   color: FBCA04
 - name: Priority: Low
-  description: 
   color: 0E8A16
 
 - name: Status: Accepted
-  description: 
   color: 0E8A16
 - name: Status: Completed
-  description: 
   color: 0E8A16
 - name: Status: In Progress
-  description: 
   color: BFDADC
 - name: Status: On Hold
   description: Temporarily set aside
@@ -35,21 +26,16 @@
   description: This will not be worked on
   color: B60205
 - name: Status: Revision Needed
-  description: 
   color: B60205
 - name: Status: ToDo
-  description: 
   color: 0E8A16
 
 - name: Type: Enhancement
   description: New feature or request
   color: 1D76DB
 - name: Type: Maintenance
-  description: 
   color: FBCA04
 - name: Type: Problem/Bug
-  description: 
   color: B60205
 - name: Type: Question
-  description: 
   color: d876e3
