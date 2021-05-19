@@ -12,11 +12,35 @@ jobs:
       - uses: micnncim/action-label-syncer@v1
         with:
           manifest: labels.yml
-          repository: 
-            - Open-Source-Autonomous-Boat/Private
-            - Open-Source-Autonomous-Boat/Protoypes
-            - Open-Source-Autonomous-Boat/Docs
-            - Open-Source-Autonomous-Boat/Miine-Software
-            - Open-Source-Autonomous-Boat/Miine-Hardware
-            - Open-Source-Autonomous-Boat/Discord-bot
+          repository: Open-Source-Autonomous-Boat/Private
           token: ${{ secrets.PAT }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: labels.yml
+          repository: Open-Source-Autonomous-Boat/Protoypes
+          token: ${{ secrets.PAT }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: labels.yml
+          repository: Open-Source-Autonomous-Boat/Docs
+          token: ${{ secrets.PAT }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: labels.yml
+          repository: Open-Source-Autonomous-Boat/Miine-Software
+          token: ${{ secrets.PAT }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: labels.yml
+          repository: Open-Source-Autonomous-Boat/Miine-Hardware
+          token: ${{ secrets.PAT }}
+      - uses: micnncim/action-label-syncer@v1
+        with:
+          manifest: labels.yml
+          repository: Open-Source-Autonomous-Boat/Discord-bot
+          token: ${{ secrets.PAT }}
+
+
+
+
+
