@@ -11,6 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         repo:
+          - Open-Source-Autonomous-Boat/OSAB
           - Open-Source-Autonomous-Boat/Private
           - Open-Source-Autonomous-Boat/Prototypes
           - Open-Source-Autonomous-Boat/Docs
