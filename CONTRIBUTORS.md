@@ -18,7 +18,7 @@ Hey, I am a high school student from Croatia, my name is Ivan but most know me a
 
 #### Doğu Taş - Software/Firmware Dev, Public Relations.
 Hi! I am a 21 year old physics student living in turkey. I will be working on firmware and software on this project.<br>
-twitter.com/dogu_tas<br>
+[twitter.com/dogu_tas](https://twitter.com/dogu_tas)<br>
 Instagram: tas_dogu
 
 ---
@@ -28,7 +28,7 @@ Instagram: tas_dogu
 ---
 
 #### Kirikmelet - Software Developer, Application Developer
-https://github.com/Kirikmelet
+[github.com/Kirikmelet](https://github.com/Kirikmelet)
 
 
 ## Contributors
