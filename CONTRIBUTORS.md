@@ -1,5 +1,5 @@
 # 🤝 Contributors and Team Members
-
+<br>
 ## Our Team:
 
 #### Michael MacDonald - Founder, responsible for guiding team members and plays an active role in all aspects of the project.
@@ -30,5 +30,5 @@ Instagram: tas_dogu
 #### Kirikmelet - Software Developer, Application Developer
 [github.com/Kirikmelet](https://github.com/Kirikmelet)
 
-
+<br>
 ## Contributors
