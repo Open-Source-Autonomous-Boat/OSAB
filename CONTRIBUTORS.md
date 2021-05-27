@@ -1,6 +1,10 @@
 # 🤝 Contributors and Team Members
+- [OSAB Team](#osab-team)
+- [Contributors](#contributors)
+
 <br>
-## Our Team:
+
+## OSAB Team:
 
 #### Michael MacDonald - Founder, responsible for guiding team members and plays an active role in all aspects of the project.
 Hi! I am a high school student from Oregon who loves to tinker and code. I am a Clean My Planet global board member and I love to use my STEM skills to find intuitive new ways to help the environment.
@@ -31,4 +35,5 @@ Instagram: tas_dogu
 [github.com/Kirikmelet](https://github.com/Kirikmelet)
 
 <br>
+
 ## Contributors
