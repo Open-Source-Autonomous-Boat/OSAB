@@ -1,3 +1,4 @@
+name: Discord Messages
 on: workflow_dispatch
 
 jobs:
