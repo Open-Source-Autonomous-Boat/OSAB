@@ -1,0 +1,13 @@
+on: workflow_dispatch
+
+jobs:
+ discord-messages:
+  runs-on: ubuntu-latest
+  steps:
+    - name: readme
+      uses: hreeder/discord-post-updater@1.1.0
+      with:
+        discord_token: ${{ secrets.discord_bot_token }}
+        post_file: /Discord-Posts/readme.md
+        discord_channel: '829005760359825429' # N.B. The quote marks here are required
+        discord_message: new # Optional, use quotes if specifying an ID. If not supplied, the bot will update the last message in the channel
