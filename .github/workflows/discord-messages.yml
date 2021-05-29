@@ -6,7 +6,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: readme
-      uses: hreeder/discord-post-updater@1.1.0
+      uses: hreeder/discord-post-updater
       with:
         discord_token: ${{ secrets.discord_bot_token }}
         post_file: /Discord-Posts/readme.md
