@@ -4,7 +4,7 @@
 > :three: No NSFW or obscene content. This includes text, images, or links featuring nudity, sex, hard violence, or other graphically disturbing content.
 > :four: If you see something against the rules or something that makes you feel unsafe, let staff know. We want this server to be a welcoming space!
 > :five: Follow Discords Terms of Service
-> :six: @Project Manager and @Project Team have final say on everything.
+> :six: <@829004509081501707> and <@829004946417385532> have final say on everything.
 
 > **Links:**
 > :evergreen_tree: Linktree: https://linktr.ee/osab
