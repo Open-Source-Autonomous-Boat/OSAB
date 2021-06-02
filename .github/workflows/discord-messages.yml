@@ -12,3 +12,5 @@ jobs:
         post_file: /github/workspace/Discord-Posts/readme.md
         discord_channel: '829005760359825429' # N.B. The quote marks here are required
         discord_message: new # Optional, use quotes if specifying an ID. If not supplied, the bot will update the last message in the channel
+    - run: |
+          ls
