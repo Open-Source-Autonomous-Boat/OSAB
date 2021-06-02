@@ -5,6 +5,7 @@ jobs:
  discord-messages:
   runs-on: ubuntu-latest
   steps:
+    - uses: actions/checkout@v2.3.4
     - name: readme
       uses: michael2macdonald/discord-post-updater@v1.1.1
       with:
