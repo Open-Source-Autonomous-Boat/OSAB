@@ -8,7 +8,7 @@
 
 > **Links:**
 > :evergreen_tree: Linktree: https://linktr.ee/osab
-> :dollar: Donate: https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab
+> :dollar: Donate: https://www.gofundme.com/f/open-source-autonomous-boat
 > :globe_with_meridians: Website: http://osab.xyz/
 > :bookmark: Github: https://github.com/Open-Source-Autonomous-Boat/
 > :bookmark_tabs: Docs: https://docs.osab.xyz/
