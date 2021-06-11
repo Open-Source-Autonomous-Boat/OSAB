@@ -15,6 +15,7 @@ jobs:
           - Open-Source-Autonomous-Boat/Miine-Software
           - Open-Source-Autonomous-Boat/Miine-Hardware
           - Open-Source-Autonomous-Boat/Discord-bot
+          - Open-Source-Autonomous-Boat/GPSTools-Library
           
     runs-on: ubuntu-latest
 
