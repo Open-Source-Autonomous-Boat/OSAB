@@ -1,3 +1,8 @@
+[![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label)](https://github.com/Open-Source-Autonomous-Boat/OSAB)
+[![Documentation](https://badgen.net/badge/icon/Documentation?icon=github&label)](https://docs.osab.xyz/)
+[![Discord](https://img.shields.io/discord/625476486912016394?logo=discord)](https://discord.gg/C5H9EE7Rp3)
+[![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab)
+
 # :boat: Open Source Autonomous Boat (OSAB) 
 
 ## :grey_question: What is OSAB?
