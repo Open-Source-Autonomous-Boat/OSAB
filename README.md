@@ -29,7 +29,7 @@ Whether you are a student who wants to help invent the next big thing or an adul
 
 ## :scroll: Code of Conduct
 
-Read our Code of Conduct [here!](https://github.com/Michael2MacDonald/OSAB/blob/main/CODE_OF_CONDUCT.md)
+Read our Code of Conduct [here!](https://github.com/Open-Source-Autonomous-Boat/OSAB/blob/main/CODE_OF_CONDUCT.md)
 
 ## :point_down: Support us Here
 OSAB is a BIG project and we need ***your*** support if we are going to be successful! Help us out by donating or by sharing the project with your family and friends.
