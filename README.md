@@ -21,11 +21,11 @@ Our mission is to prove that a team of young inspired students can use science, 
 
 ## :dart: Our Goal
 
-Our goal is to create positive change through the research and the development of our vessels as research platforms. Although our boats are unlikely to provide that much useful data today, our goal is that our designs and ideas lead to a new generation of mobile, inexpensive, autonomous, ocean platforms for future scientific instruments and data collection. Every smartphone, rocketship, and MRI started out as an idea and a prototype before they became what they are today. We hope to be that stepping stone that leads to a technology that makes the world a better place.
+Our goal is to advance climate and earth sciences through the research and development of our vessels and research platforms. Although our vessels are unlikely to provide that much useful data today, our designs and ideas will lead to a new generation of inexpensive, mobile, autonomous, ocean research platforms for future scientific instruments and data collection. Every smartphone, rocketship, and MRI started out as an idea and a prototype before they became lifesaving scientific tools for comunication, research, and medicine. We hope to develop the technology that leads to advancements that solve global issues.
 
 ## :handshake: How to Contribute
 
-Whether you are a student who wants to help build the next big thing or an adult who would like to lend their expertise, all you have to do is fill out the the form [here](http://osab.xyz/join-us/) and we will contact you!
+Whether you are a student who wants to help invent the next big thing or an adult who would like to lend their expertise, all you have to do is fill out the the form [here](http://osab.xyz/join-us/) and we will contact you!
 
 ## :scroll: Code of Conduct
 
