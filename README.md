@@ -1,4 +1,4 @@
-[![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label)](https://github.com/Open-Source-Autonomous-Boat/OSAB)
+[![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label=)](https://github.com/Open-Source-Autonomous-Boat/OSAB)
 [![Documentation](https://badgen.net/badge/icon/Documentation?icon=github&label)](https://docs.osab.xyz/)
 [![Discord](https://img.shields.io/discord/625476486912016394?logo=discord)](https://discord.gg/C5H9EE7Rp3)
 [![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab)
@@ -7,13 +7,13 @@
 
 ## :grey_question: What is OSAB?
 
-OSAB is a project that makes open-source, solar powered, autonomous, boats. We are a team of student hobbyists and tinkerers around the world who love STEM, learning, and who care about our planet and global issues such as climate change.
+OSAB is a project that is developing open-source, solar powered, autonomous, boats. We are a team of student hobbyists and tinkerers from around the world who love learning, STEM, and the planet. We care about global issues such as climate change and want to use our skills to develop solutions for the future.
 
-**Why?** For science of course! The data gathered by OSAB includes lux / UV / IR / Visible light, water temp, air temp and humidity, water turbidity, water pH, water salinity, air pressure, and much more. This data will help us better understand ocean and atmospheric environments and let us create a better solution to fight climate change!
+**Why?** For science of course! The data gathered by OSAB vessels will include lux / UV / IR / Visible light, water temperature, air temperature and humidity, water turbidity, water pH, water salinity, air pressure, and much more. This data will help us better understand ocean and atmospheric environments around the world and let us create a better solution to fight climate change!
 
 ## :crystal_ball: Our Vision
 
-Our vision of the future of this project is that it creates a young generation that is not afraid to think big and try things that seem too difficult at first. We want them to see that not everything is perfect and then work to improve the world around them. They will realize that even when the problems are bigger than they can fix alone if they work together to create positive change, no task would be too big or too hard.
+The future of this project is one that creates a young generation that is not afraid to think big and try new ideas and solutions even if they seem difficult at first. We want them to see the flaws and problems in the world and then take it as a challenge to work to improve the world around them. We hope they will realize that even when the problems are too big for them to fix alone, they can work together with like minded forward thinkers to create positive change no matter how hard the task is.
 
 ## :white_flag: Our Mission
 
