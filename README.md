@@ -42,6 +42,6 @@ OSAB is a BIG project and we need ***your*** support if we are going to be succe
 
 ## :framed_picture: Images:
 
-See all images [here](https://github.com/Open-Source-Autonomous-Boat/OSAB/tree/main/Images)
+See all images [here](https://github.com/Open-Source-Autonomous-Boat/Media-Library)
 
-<img src="https://user-images.githubusercontent.com/34051815/117868320-50ef8600-b24e-11eb-919e-91b4da75de15.PNG" width="500">
+<img src="https://github.com/Open-Source-Autonomous-Boat/Media-Library/blob/main/CAD/v0.3-Miine.PNG" width="500" title="v0.3 Miine">
