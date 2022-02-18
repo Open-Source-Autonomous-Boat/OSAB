@@ -15,8 +15,8 @@ jobs:
       - run: |
           curl --request GET \
           --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }} \
-          -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'content-type: application/json' \
+          -o 'Stats/OrgStats.json' \
           | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
   OrgOutsideCollabStats:
     runs-on: ubuntu-latest
@@ -27,5 +27,5 @@ jobs:
           --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }}/outside_collaborators \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'content-type: application/json' \
-          | jq '.type' > Stats/OrgOutsideCollabStats.json
+          | jq '.type' > 'Stats/OrgOutsideCollabStats.json'
           
