@@ -28,10 +28,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          curl --request GET \
-          --url "https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators" \
+          curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators" \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-          -H 'content-type: application/json' \
+          -H 'Accept: application/json' \
           | jq '.type' > Stats/OrgOutsideCollabStats.json
       - run: |
           git pull
