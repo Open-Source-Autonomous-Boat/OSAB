@@ -17,7 +17,7 @@ jobs:
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'Accept: application/json' \
-          | jq '.public_repos,.followers,.collaborators,.public_gists' Stats/OrgStats.json
+          | jq '.public_repos,.followers,.collaborators,.public_gists'
       - run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
