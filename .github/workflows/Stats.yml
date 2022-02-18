@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: echo ${{ github.GITHUB_REPOSITORY_OWNER }}
+      - run: |
+          curl https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }} \
+          -H 'Accept: application/json' \
+          | jq '.public_repos .followers .collaborators .public_gists'
       - run: |
           curl https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }} \
           -H 'Accept: application/json' \
