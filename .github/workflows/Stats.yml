@@ -20,7 +20,7 @@ jobs:
       - run: |
           curl https://api.github.com/orgs/Open-Source-Autonomous-Boat \
           -H 'Accept: application/json' \
-          | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
+          | jq '.public_repos .followers .collaborators .public_gists' Stats/OrgStats.json
       - run: |
           git diff
           git config user.name "Automated"
@@ -36,7 +36,7 @@ jobs:
           --url https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'content-type: application/json' \
-          | jq '.type' > 'Stats/OrgOutsideCollabStats.json'
+          | jq '.type' 'Stats/OrgOutsideCollabStats.json'
       - run: |
           git pull
           git diff
