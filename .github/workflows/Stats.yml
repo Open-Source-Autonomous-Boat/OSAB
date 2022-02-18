@@ -16,7 +16,7 @@ jobs:
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
-          | jq '.public_repos .followers .collaborators .public_gists'
+          | jq '.public_repos .public_gists'
       - run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
