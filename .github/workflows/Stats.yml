@@ -14,12 +14,11 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo Open-Source-Autonomous-Boat
       - run: |
-          curl https://api.github.com/orgs/Open-Source-Autonomous-Boat \
+          curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-          -H 'Accept: application/json' \
-          | tac | tac | jq '.public_repos,.followers,.collaborators,.public_gists'
+          -H 'Accept: application/json'
       - run: |
-          curl https://api.github.com/orgs/Open-Source-Autonomous-Boat \
+          curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'Accept: application/json' \
           | tac | tac | jq '.public_repos,.followers,.collaborators,.public_gists' Stats/OrgStats.json
@@ -35,7 +34,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           curl --request GET \
-          --url https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators \
+          --url "https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators" \
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'content-type: application/json' \
           | tac | tac | jq '.type' 'Stats/OrgOutsideCollabStats.json'
