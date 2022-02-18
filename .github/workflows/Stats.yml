@@ -12,18 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: |
+      - run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
-          -H 'authorization: Bearer' $ACCESS_TOKEN \
+          -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
           | jq '.public_repos .followers .collaborators .public_gists'
-      - env:
-          ACCESS_TOKEN: ${{ secrets.MICHAEL_ACCESS_TOKEN }}
-        run: |
+      - run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
-          -H 'authorization: Bearer' $ACCESS_TOKEN \
+          -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
           | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
       - run: |
@@ -36,11 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - env:
-          ACCESS_TOKEN: ${{ secrets.MICHAEL_ACCESS_TOKEN }}
-        run: |
+      - run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators" \
-          -H 'authorization: Bearer $ACCESS_TOKEN' \
+          -H 'authorization: Bearer ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
           | jq '.type' > Stats/OrgOutsideCollabStats.json
       - run: |
