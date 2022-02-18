@@ -1,7 +1,15 @@
 [![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label=)](https://github.com/Open-Source-Autonomous-Boat/OSAB)
 [![Documentation](https://badgen.net/badge/icon/Documentation?icon=github&label)](https://docs.osab.xyz/)
-[![Discord](https://img.shields.io/discord/625476486912016394?logo=discord)](https://discord.gg/C5H9EE7Rp3)
+[![Discord](https://badgen.net/discord/online-members/C5H9EE7Rp3?icon=discord&label=)](https://discord.gg/C5H9EE7Rp3)
 [![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab)
+
+**Stats:**
+[![Members](https://img.shields.io/badge/dynamic/json?label=Members&query=%24.length&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgMemberStats.json)](#)
+[![Collaborators](https://img.shields.io/badge/dynamic/json?label=Collaborators&query=%24.collaborators&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
+[![Followers](https://img.shields.io/badge/dynamic/json?label=Followers&query=%24.followers&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
+[![Repos](https://img.shields.io/badge/dynamic/json?label=Repos&query=%24.public_repos&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
+[![Gists](https://img.shields.io/badge/dynamic/json?label=Gists&query=%24.public_gists&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
+[![Website](https://img.shields.io/website?down_message=Offline&label=Website&up_message=Online&url=https%3A%2F%2Fosab.xyz%2F)](http://osab.xyz/)
 
 # :boat: Open Source Autonomous Boat (OSAB) 
 
