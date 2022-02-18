@@ -16,8 +16,13 @@ jobs:
           curl --request GET \
           --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }} \
           -H 'content-type: application/json' \
-          -o 'Stats/OrgStats.json' \
           | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
+      - run: |
+          git diff
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git diff --quiet || (git add -A && git commit -m "Updated with latest")
+          git push
   OrgOutsideCollabStats:
     runs-on: ubuntu-latest
     steps:
@@ -28,4 +33,10 @@ jobs:
           -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           -H 'content-type: application/json' \
           | jq '.type' > 'Stats/OrgOutsideCollabStats.json'
+      - run: |
+          git diff
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git diff --quiet || (git add -A && git commit -m "Updated with latest")
+          git push
           
