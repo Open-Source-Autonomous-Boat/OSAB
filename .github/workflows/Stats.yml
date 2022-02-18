@@ -1,0 +1,31 @@
+name: Stats
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
+jobs:
+  OrgStats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v2
+      - run: |
+          curl --request GET \
+          --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }}
+          -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          -H 'content-type: application/json' \
+          | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
+  OrgOutsideCollabStats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v2
+      - run: |
+          curl --request GET \
+          --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }}/outside_collaborators
+          -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          -H 'content-type: application/json' \
+          | jq '.type' > Stats/OrgOutsideCollabStats.json
+          
