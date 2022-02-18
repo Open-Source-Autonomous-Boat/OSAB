@@ -11,7 +11,7 @@ jobs:
   OrgStats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/labeler@v2
+      - uses: actions/checkout@v2
       - run: |
           curl --request GET \
           --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }}
@@ -21,7 +21,7 @@ jobs:
   OrgOutsideCollabStats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/labeler@v2
+      - uses: actions/checkout@v2
       - run: |
           curl --request GET \
           --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }}/outside_collaborators
