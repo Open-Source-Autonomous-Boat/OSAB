@@ -13,17 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - env:
-          ACCESS_TOKEN: ${{ secrets.MICHAEL_ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
-          -H 'authorization: Bearer $ACCESS_TOKEN' \
+          -H 'authorization: Bearer' $ACCESS_TOKEN \
           -H 'Accept: application/json' \
           | jq '.public_repos .followers .collaborators .public_gists'
       - env:
           ACCESS_TOKEN: ${{ secrets.MICHAEL_ACCESS_TOKEN }}
         run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
-          -H 'authorization: Bearer $ACCESS_TOKEN' \
+          -H 'authorization: Bearer' $ACCESS_TOKEN \
           -H 'Accept: application/json' \
           | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
       - run: |
