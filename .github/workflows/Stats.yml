@@ -34,9 +34,9 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators" \
-          -H 'authorization: Bearer ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
+          -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
-          | jq '.type' > Stats/OrgOutsideCollabStats.json
+          | jq '{"type":.type}' > Stats/OrgOutsideCollabStats.json
       - run: |
           git pull
           git diff
