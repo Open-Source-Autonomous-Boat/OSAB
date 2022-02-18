@@ -36,7 +36,7 @@ jobs:
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat/outside_collaborators" \
           -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
-          | jq '{.[] | ("type":.type)}' > Stats/OrgOutsideCollabStats.json
+          | jq '{"type":.[].type}' > Stats/OrgOutsideCollabStats.json
       - run: |
           git pull
           git diff
