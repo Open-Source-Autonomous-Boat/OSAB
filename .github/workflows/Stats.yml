@@ -21,7 +21,7 @@ jobs:
           curl "https://api.github.com/orgs/Open-Source-Autonomous-Boat" \
           -H 'authorization: token ${{ secrets.MICHAEL_ACCESS_TOKEN }}' \
           -H 'Accept: application/json' \
-          | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
+          | jq '{"public_repos":.public_repos, "followers":.followers, "collaborators":.collaborators, "public_gists":.public_gists}' > Stats/OrgStats.json
       - run: |
           git diff
           git config user.name "Automated"
