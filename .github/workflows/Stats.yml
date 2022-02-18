@@ -13,9 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          curl --request GET \
-          --url https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }} \
-          -H 'content-type: application/json' \
+          curl https://api.github.com/orgs/${{ github.GITHUB_REPOSITORY_OWNER }} \
+          -H 'Accept: application/json' \
           | jq '.public_repos .followers .collaborators .public_gists' > Stats/OrgStats.json
       - run: |
           git diff
@@ -34,6 +33,7 @@ jobs:
           -H 'content-type: application/json' \
           | jq '.type' > 'Stats/OrgOutsideCollabStats.json'
       - run: |
+          git pull
           git diff
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
