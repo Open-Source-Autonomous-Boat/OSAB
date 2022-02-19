@@ -10,6 +10,6 @@ jobs:
       uses: michael2macdonald/discord-message-updater@v1
       with:
         discord_token: ${{ secrets.DISCORD_BOT_2_TOKEN }}
-        message_file: /github/workspace/Discord-Posts/readme.md
+        message_file: Discord-Posts/readme.md
         discord_channel: '829005760359825429'
         discord_message: new        
