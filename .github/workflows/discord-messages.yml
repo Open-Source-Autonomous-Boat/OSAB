@@ -12,4 +12,4 @@ jobs:
         discord_token: ${{ secrets.DISCORD_BOT_TOKEN }}
         message_file: Discord-Posts/readme.md
         discord_channel: '829005760359825429'
-        discord_message: new
+        discord_message: '944478844902068224'
