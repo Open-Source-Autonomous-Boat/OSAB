@@ -1,4 +1,4 @@
-> **Rules:**
+> **Rules TEST:**
 > :one: Treat everyone with respect.
 > :two: No spam or self-promotion (without permission from a staff member).
 > :three: Keep it PG. No profanity, etc.
