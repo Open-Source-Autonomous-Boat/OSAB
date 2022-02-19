@@ -7,7 +7,7 @@ jobs:
   steps:
     - uses: actions/checkout@v2
     - name: readme
-      uses: michael2macdonald/discord-message-updater@v1
+      uses: michael2macdonald/discord-message-updater@v1.1
       with:
         discord_token: ${{ secrets.DISCORD_BOT_2_TOKEN }}
         message_file: Discord-Posts/readme.md
