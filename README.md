@@ -44,7 +44,7 @@
 - **Discord:** [discord.gg/C5H9EE7Rp3](https://discord.gg/C5H9EE7Rp3)
 - **Email:** [osab.project@gmail.com](mailto:osab.project@gmail.com)
 - **Instagram:** [osab.project](https://www.instagram.com/osab.project/)
-- **Support Us:** [GoFundMe](https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab)
+- **Support Us:** [GoFundMe](https://www.gofundme.com/f/open-source-autonomous-boat)
 
 ### :gift_heart: Support Us
 OSAB is a BIG project and we need ***your*** support if we are going to be successful! Help us out by donating or by sharing the project with your family and friends.
