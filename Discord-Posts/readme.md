@@ -8,4 +8,4 @@
 > **Check <#831262333920870411> For More Information About OSAB!**
 
 > **Discord Invite:**
-> https://discord.gg/C5H9EE7Rp3
+> https://links.osab.xyz/discord
