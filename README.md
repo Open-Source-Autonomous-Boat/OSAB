@@ -1,7 +1,7 @@
 [![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label=)](https://github.com/Open-Source-Autonomous-Boat/OSAB)
 [![Documentation](https://badgen.net/badge/icon/Documentation?icon=github&label)](https://docs.osab.xyz/)
 [![Discord](https://badgen.net/discord/online-members/C5H9EE7Rp3?icon=discord&label=)](https://discord.gg/C5H9EE7Rp3)
-[![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab)
+[![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://www.gofundme.com/f/open-source-autonomous-boat)
 
 **Stats:**
 [![Members](https://img.shields.io/badge/dynamic/json?label=Members&query=%24.length&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgMemberStats.json)](#)
