@@ -42,7 +42,7 @@ Where we keep all of our open source files and code. Take a look at some of the 
 ### :link: Links
 - **Github Org:** [Open-Source-Autonomous-Boat](https://github.com/Open-Source-Autonomous-Boat/)
 - **Website:** [osab.xyz](https://osab.xyz/)
-- **Discord:** [https://links.osab.xyz/discord](https://links.osab.xyz/discord)
+- **Discord:** [links.osab.xyz/discord](https://links.osab.xyz/discord)
 - **Email:** [osab.project@gmail.com](mailto:osab.project@gmail.com)
 - **Instagram:** [@osab.project](https://links.osab.xyz/instagram)
 - **Support Us:** [GoFundMe](https://links.osab.xyz/gofundme)
