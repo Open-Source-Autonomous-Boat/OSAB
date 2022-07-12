@@ -1,9 +1,8 @@
-[![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label=)](https://github.com/Open-Source-Autonomous-Boat/OSAB)
+[![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label=)](https://github.com/Open-Source-Autonomous-Boat)
 [![Documentation](https://badgen.net/badge/icon/Documentation?icon=github&label)](https://docs.osab.xyz/)
-[![Discord](https://badgen.net/discord/online-members/C5H9EE7Rp3?icon=discord&label=)](https://discord.gg/C5H9EE7Rp3)
-[![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://www.gofundme.com/f/open-source-autonomous-boat)
+[![Discord](https://badgen.net/discord/online-members/C5H9EE7Rp3?icon=discord&label=)](http://links.osab.xyz/discord)
+[![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](http://links.osab.xyz/gofundme)
 
-**Stats:**
 [![Members](https://img.shields.io/badge/dynamic/json?label=Members&query=%24.length&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgMemberStats.json)](#)
 [![Collaborators](https://img.shields.io/badge/dynamic/json?label=Collaborators&query=%24.collaborators&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
 [![Followers](https://img.shields.io/badge/dynamic/json?label=Followers&query=%24.followers&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
@@ -11,7 +10,9 @@
 [![Gists](https://img.shields.io/badge/dynamic/json?label=Gists&query=%24.public_gists&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
 [![Website](https://img.shields.io/website?down_message=Offline&label=Website&up_message=Online&url=https%3A%2F%2Fosab.xyz%2F)](http://osab.xyz/)
 
-# :boat: Open Source Autonomous Boat (OSAB) 
+# :boat: OSAB Project
+
+Where we keep all of our open source files and code. Take a look at some of the things you can find here:
 
 ## Table Of Contents:
 - [Table Of Contents](#table-of-contents)
@@ -34,21 +35,22 @@
   - [Vessel Instruction Set Language](#vessel-instruction-set-language) ([Go to repo](https://github.com/Open-Source-Autonomous-Boat/Vessel-Instruction-Set-Language))
   - [More Coming Soon...](#) ([Go to repo](https://github.com/Open-Source-Autonomous-Boat/))
 - [More](#more)
-  - [Image Showcase](#framed_picture-image-showcase) ([All Images](https://github.com/Open-Source-Autonomous-Boat/Media-Library))
+  - [Images](#framed_picture-images) ([All Images](https://github.com/Open-Source-Autonomous-Boat/Media-Library))
 
 ---
 
 ### :link: Links
 - **Github Org:** [Open-Source-Autonomous-Boat](https://github.com/Open-Source-Autonomous-Boat/)
 - **Website:** [osab.xyz](http://osab.xyz/)
-- **Discord:** [discord.gg/C5H9EE7Rp3](https://discord.gg/C5H9EE7Rp3)
+- **Discord:** [http://links.osab.xyz/discord](http://links.osab.xyz/discord)
 - **Email:** [osab.project@gmail.com](mailto:osab.project@gmail.com)
-- **Instagram:** [osab.project](https://www.instagram.com/osab.project/)
-- **Support Us:** [GoFundMe](https://www.gofundme.com/f/open-source-autonomous-boat)
+<!-- - **Instagram:** [osab.project](https://www.instagram.com/osab.project/) -->
+- **Instagram:** [osab.project](http://links.osab.xyz/instagram)
+- **Support Us:** [GoFundMe](http://links.osab.xyz/gofundme)
 
 ### :gift_heart: Support Us
-OSAB is a BIG project and we need ***your*** support if we are going to be successful! Help us out by donating or by sharing the project with your family and friends.
-You can donate to our [GoFundMe](https://www.gofundme.com/f/open-source-autonomous-scientific-boat-osab) page.
+OSAB is a BIG project and we need ***your*** support! Help us out by donating or share the project with your family and friends.
+You can donate to our [GoFundMe](http://links.osab.xyz/gofundme) page.
 
 ---
 
@@ -84,7 +86,7 @@ You can also contribute through pull-requests, issues, and discutions because th
 
 ## :scroll: Code of Conduct
 
-We want to ensure that this project creates a safe community for everyone. The Code of Conduct outlines what it means for the comunity to be safe and the actions that can be taken to maintain that safety. You can read our Code of Conduct [here](https://github.com/Open-Source-Autonomous-Boat/OSAB/blob/main/CODE_OF_CONDUCT.md).
+We want to ensure that this project creates a safe community for everyone. The Code of Conduct outlines what it means for the comunity to be safe and the actions that can be taken to maintain that safety. You can read our Code of Conduct [here](https://github.com/Open-Source-Autonomous-Boat/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 
@@ -112,8 +114,6 @@ The `Vessel-Instruction-Set-Language` repo
 
 # More
 
-## :framed_picture: Image Showcase
+## :framed_picture: Images
 
 You can find all our images and media available [here](https://github.com/Open-Source-Autonomous-Boat/Media-Library).
-
-<img src="https://github.com/Open-Source-Autonomous-Boat/Media-Library/blob/main/CAD/v0.3-Miine.PNG" width="500" title="v0.3 Miine">
