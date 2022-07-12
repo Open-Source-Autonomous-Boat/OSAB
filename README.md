@@ -44,8 +44,7 @@ Where we keep all of our open source files and code. Take a look at some of the 
 - **Website:** [osab.xyz](http://osab.xyz/)
 - **Discord:** [http://links.osab.xyz/discord](http://links.osab.xyz/discord)
 - **Email:** [osab.project@gmail.com](mailto:osab.project@gmail.com)
-<!-- - **Instagram:** [osab.project](https://www.instagram.com/osab.project/) -->
-- **Instagram:** [osab.project](http://links.osab.xyz/instagram)
+- **Instagram:** [@osab.project](http://links.osab.xyz/instagram)
 - **Support Us:** [GoFundMe](http://links.osab.xyz/gofundme)
 
 ### :gift_heart: Support Us
