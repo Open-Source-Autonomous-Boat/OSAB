@@ -23,6 +23,7 @@ Where we keep all of our open source files and code. Take a look at some of the 
   - [Our Vision](#crystal_ball-our-vision)
   - [Our Mission](#white_flag-our-mission)
   - [Our Goal](#dart-our-goal)
+  - [Our Team](#heart-our-team)
 - [Contribute](#contribute)
   - [How to Contribute](#handshake-how-to-contribute)
   - [Code of Conduct](#scroll-code-of-conduct)
@@ -72,6 +73,10 @@ Our mission is to prove that a team of young inspired students can use science, 
 ## :dart: Our Goal
 
 Our goal is to advance climate and earth sciences through the research and development of our vessels and research platforms. Although our vessels are unlikely to provide that much useful data today, our designs and ideas will lead to a new generation of inexpensive, mobile, autonomous, ocean research platforms for future scientific instruments and data collection. Every smartphone, rocketship, and MRI started out as an idea and a prototype before they became lifesaving scientific tools for comunication, research, and medicine. We hope to develop the technology that leads to advancements that solve global issues.
+
+## :heart: Our Team
+
+You can find our team members and other contributors on our website [here](https://osab.xyz/our-team/)!
 
 ---
 
