@@ -9,10 +9,10 @@
 #### Michael MacDonald - Founder, Project Manager, Electronics & Firmware Developer
 > Hi! I am a college student (oregon state university) from Oregon who loves to tinker with electronics and program microcontrollers. I was a global board member of the Clean My Planet 501(c)3 non-profit (while it still existed) and I still love finding ways to address environmental and climate issues with my engineering skills. In the future, I hope to find a career where I can engineer solutions and work alongside scientists to create tools and solutions to global issues. Whether that is imaging devices for cancer cell research, instruments for climate research, satellite telescopes for astronomy research, or rovers for terrestrial exploration on other planets, I want to contribute to the advancement of science.
 
-#### Upmanyu - Project Manager, Vessel Design Team Lead
+#### Upmanyu - Project Manager, Mechanical Team Lead
 > [Comming Soon]
 
-#### Krissh Chawla - Computer Vision, Vessel Design Team
+#### Krissh Chawla - Computer Vision, Mechanical Team
 > Hi, I am interested in ocean conservation and enjoy training deep neural networks with engineering applications. I am working on creating computer vision models for object detection and applying reinforcement learning for autonomous navigation in marine environments.
 
 
