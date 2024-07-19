@@ -1,10 +1,11 @@
 [![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=git&label=)](https://github.com/Open-Source-Autonomous-Boat)
 [![Documentation](https://badgen.net/badge/icon/Documentation?icon=github&label)](https://docs.osab.xyz/)
 [![Discord](https://badgen.net/discord/online-members/C5H9EE7Rp3?icon=discord&label=)](https://links.osab.xyz/discord)
-[![Donate](https://badgen.net/badge/Donate/GoFundMe/green)](https://links.osab.xyz/gofundme)
+[![Donate](https://badgen.net/badge/Donate/GitHub%20Sponsors/red)](https://github.com/sponsors/Open-Source-Autonomous-Boat)
+[![Donate](https://badgen.net/badge/Donate/Ko-Fi/red)](https://ko-fi.com/osabproject)
 
-[![Members](https://img.shields.io/badge/dynamic/json?label=Members&query=%24.length&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgMemberStats.json)](#)
-[![Collaborators](https://img.shields.io/badge/dynamic/json?label=Collaborators&query=%24.collaborators&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
+<!--[![Members](https://img.shields.io/badge/dynamic/json?label=Members&query=%24.length&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgMemberStats.json)](#)
+[![Collaborators](https://img.shields.io/badge/dynamic/json?label=Collaborators&query=%24.collaborators&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)-->
 [![Followers](https://img.shields.io/badge/dynamic/json?label=Followers&query=%24.followers&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
 [![Repos](https://img.shields.io/badge/dynamic/json?label=Repos&query=%24.public_repos&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
 [![Gists](https://img.shields.io/badge/dynamic/json?label=Gists&query=%24.public_gists&url=https%3A%2F%2Fraw.githubusercontent.com%2FOpen-Source-Autonomous-Boat%2FOSAB%2Fmain%2FStats%2FOrgStats.json)](#)
@@ -50,7 +51,7 @@ Where we keep all of our open source files and code. Take a look at some of the 
 
 ### :gift_heart: Support Us
 OSAB is a BIG project and we need ***your*** support! Help us out by donating or sharing the project with your family and friends.
-You can donate to our [GoFundMe](https://links.osab.xyz/gofundme) page.
+You can donate to our [Github Sponsors](https://github.com/sponsors/Open-Source-Autonomous-Boat) page monthly for perks or donate only once (wo/ perks) through either [Github Sponsors](https://github.com/sponsors/Open-Source-Autonomous-Boat) or [Ko-Fi](https://ko-fi.com/osabproject).
 
 ---
 
